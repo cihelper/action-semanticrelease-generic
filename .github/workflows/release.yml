@@ -1,0 +1,22 @@
+name: build
+
+on: [push]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+      - name: Setup dependencies
+        shell: sh
+        run: npm i --no-save @cihelper/preset-semanticrelease-githubaction
+      - name: Run semantic-release
+        shell: sh
+        env:
+          GITHUB_TOKEN: ${{ inputs.github-token }}
+        run: npx semantic-release --extends @cihelper/preset-semanticrelease-githubaction
