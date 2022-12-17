@@ -2,7 +2,7 @@ name: "Release npm Node Project"
 description: "Release an npm Node project using semantic-release"
 branding:
   icon: upload-cloud
-  color: blue
+  color: gray-dark
 
 inputs:
   github-token:
