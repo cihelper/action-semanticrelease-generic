@@ -21,7 +21,7 @@ runs:
         node-version: lts/*
     - name: Setup dependencies
       shell: sh
-      run: npm i --no-save @cihelper/preset-semanticrelease-githubaction
+      run: npm i --no-save @cihelper/preset-semanticrelease-githubaction@^1.0.0
     - name: Run semantic-release
       shell: sh
       env:
