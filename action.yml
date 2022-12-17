@@ -1,5 +1,5 @@
-name: "Release npm Node Project"
-description: "Release an npm Node project using semantic-release"
+name: "Release GitHub Action"
+description: "Release an GitHub Action using semantic-release"
 branding:
   icon: upload-cloud
   color: gray-dark

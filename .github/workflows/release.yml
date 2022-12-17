@@ -18,3 +18,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release --extends @cihelper/preset-semanticrelease-githubaction
+      # https://github.com/marketplace/actions/actions-tagger
