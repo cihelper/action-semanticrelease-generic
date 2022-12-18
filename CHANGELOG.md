@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.6](https://github.com/cihelper/action-semanticrelease-githubaction/compare/v1.0.5...v1.0.6) (2022-12-18)
+
+
+### Bug Fixes
+
+* loosen version constraints ([ee0dea6](https://github.com/cihelper/action-semanticrelease-githubaction/commit/ee0dea6dc2cc2ef1caa7a3594b1f3e2debdf10a3))
+* rename packages ([0e0a4f5](https://github.com/cihelper/action-semanticrelease-githubaction/commit/0e0a4f5b456a7b5a0f5709b5697e783aeeb1d5cd))
+
 ## [1.0.5](https://github.com/cihelper/action-semanticrelease-githubaction/compare/v1.0.4...v1.0.5) (2022-12-18)
 
 
