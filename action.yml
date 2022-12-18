@@ -47,5 +47,5 @@ runs:
         GITHUB_TOKEN: ${{ inputs.github-token }}
       with:
         semantic_version: ${{ steps.semantic-release-version.outputs.version }}
-        extra_plugins: "@cihelper/semanticrelease-preset-githubaction@^1.0.0"
+        extra_plugins: "@cihelper/semanticrelease-preset-githubaction@^1"
         extends: "@cihelper/semanticrelease-preset-githubaction"
