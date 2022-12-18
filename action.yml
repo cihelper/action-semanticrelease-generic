@@ -39,7 +39,7 @@ runs:
     - name: Get semantic-release version
       shell: sh
       id: semantic-release-version
-      run: "echo version=$(npm view @cihelper/preset-semanticrelease-githubaction dependencies.semantic-release) >> $GITHUB_OUTPUT"
+      run: "echo version=$(npm view @cihelper/semanticrelease-preset-githubaction dependencies.semantic-release) >> $GITHUB_OUTPUT"
     - name: Run semantic-release
       id: semantic-release
       uses: cycjimmy/semantic-release-action@v3
@@ -47,5 +47,5 @@ runs:
         GITHUB_TOKEN: ${{ inputs.github-token }}
       with:
         semantic_version: ${{ steps.semantic-release-version.outputs.version }}
-        extra_plugins: "@cihelper/preset-semanticrelease-githubaction@^1.0.0"
-        extends: "@cihelper/preset-semanticrelease-githubaction"
+        extra_plugins: "@cihelper/semanticrelease-preset-githubaction@^1.0.0"
+        extends: "@cihelper/semanticrelease-preset-githubaction"
