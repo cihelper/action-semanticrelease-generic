@@ -20,5 +20,5 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
           semantic_version: ${{ steps.semantic-release-version.outputs.version }}
-          extra_plugins: "@cihelper/semanticrelease-preset-githubaction@^1"
+          extra_plugins: "@cihelper/semanticrelease-preset-githubaction@1"
           extends: "@cihelper/semanticrelease-preset-githubaction"
