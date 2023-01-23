@@ -1,1 +1,1 @@
-# GitHub Action for Semantic Release with GitHub Actions
+# GitHub Action for Semantic Release with generic repos

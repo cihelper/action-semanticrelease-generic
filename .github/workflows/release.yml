@@ -11,7 +11,7 @@ jobs:
       - name: Get semantic-release version
         shell: sh
         id: semantic-release-version
-        run: "echo version=$(npm view @cihelper/semanticrelease-preset-githubaction dependencies.semantic-release) >> $GITHUB_OUTPUT"
+        run: "echo version=$(npm view @cihelper/semanticrelease-preset-generic dependencies.semantic-release) >> $GITHUB_OUTPUT"
       - name: Run semantic-release
         id: semantic-release
         uses: cycjimmy/semantic-release-action@v3
@@ -20,5 +20,5 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
           semantic_version: ${{ steps.semantic-release-version.outputs.version }}
-          extra_plugins: "@cihelper/semanticrelease-preset-githubaction@1"
-          extends: "@cihelper/semanticrelease-preset-githubaction"
+          extra_plugins: "@cihelper/semanticrelease-preset-generic@1"
+          extends: "@cihelper/semanticrelease-preset-generic"
