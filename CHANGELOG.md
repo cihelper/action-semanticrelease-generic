@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/cihelper/action-semanticrelease-generic/compare/v1.0.6...v1.1.0) (2023-01-23)
+
+
+### Features
+
+* refactor for generic repos ([b095a68](https://github.com/cihelper/action-semanticrelease-generic/commit/b095a682fe6daf0ba191a380b9b1af1fa7379136))
+
 ## [1.0.6](https://github.com/cihelper/action-semanticrelease-githubaction/compare/v1.0.5...v1.0.6) (2022-12-18)
 
 
