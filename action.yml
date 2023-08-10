@@ -9,6 +9,13 @@ inputs:
     description: "GitHub token"
     required: false
     default: ${{ github.token }}
+  version-file:
+    description: "Path to file containing the version"
+    required: false
+  major-tag:
+    description: "Add major/minor tags to git"
+    required: false
+    default: "true"
 
 outputs:
   released:
@@ -45,6 +52,8 @@ runs:
       uses: cycjimmy/semantic-release-action@v3
       env:
         GITHUB_TOKEN: ${{ inputs.github-token }}
+        VERSION_FILE: ${{ inputs.version-file }}
+        MAJOR_TAG: ${{ inputs.major-tag }}
       with:
         semantic_version: ${{ steps.semantic-release-version.outputs.version }}
         extra_plugins: "@cihelper/semanticrelease-preset-generic@1"
