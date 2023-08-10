@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/cihelper/action-semanticrelease-generic/compare/v1.1.0...v1.2.0) (2023-08-10)
+
+
+### Features
+
+* add support for version-file and major-tag ([bc3ed6f](https://github.com/cihelper/action-semanticrelease-generic/commit/bc3ed6fdf4d60e4fc692b6024e6f5e46628640c8))
+
+
+### Bug Fixes
+
+* make major tag mandatory again due to bugs ([9609b00](https://github.com/cihelper/action-semanticrelease-generic/commit/9609b00d9d4209f6d504d3b8cfd1c0e70cb6f0ca))
+
 ## [1.1.0](https://github.com/cihelper/action-semanticrelease-generic/compare/v1.0.6...v1.1.0) (2023-01-23)
 
 
