@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/cihelper/action-semanticrelease-generic/compare/v1.2.0...v1.2.1) (2023-09-26)
+
+
+### Bug Fixes
+
+* trigger release ([1ec9cba](https://github.com/cihelper/action-semanticrelease-generic/commit/1ec9cba6ab6a6ad906a2c98555da6a0c487494cc))
+* trigger release ([7c6e496](https://github.com/cihelper/action-semanticrelease-generic/commit/7c6e496e67b136e46c019e322005edf9d8d637d0))
+
 ## [1.2.0](https://github.com/cihelper/action-semanticrelease-generic/compare/v1.1.0...v1.2.0) (2023-08-10)
 
 
