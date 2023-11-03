@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/cihelper/action-semanticrelease-generic/compare/v1.2.2...v1.2.3) (2023-11-03)
+
+
+### Bug Fixes
+
+* use correct values for git-based outputs ([d90025b](https://github.com/cihelper/action-semanticrelease-generic/commit/d90025b045f58bb18852fec682ba0fea08ace009))
+
 ## [1.2.2](https://github.com/cihelper/action-semanticrelease-generic/compare/v1.2.1...v1.2.2) (2023-11-03)
 
 
